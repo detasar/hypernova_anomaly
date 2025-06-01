@@ -1,0 +1,26 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "hypernova_anomaly"
+version = "1.0.0"
+description = "Blazingly fast univariate anomaly detection engine based on Extreme Value Theory (EVT)."
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+    "pandas>=1.2",
+    "numpy>=1.21",
+    "pyarrow>=14.0",
+    "pyspark>=3.4"
+]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+module-name = "hypernova_anomaly.core"
