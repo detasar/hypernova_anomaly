@@ -1,4 +1,4 @@
-# Hypernova Anomaly: Eşsiz Hızda Univariate Anomali Tespit Motoru
+# Hypernova Anomaly: Yüksek Hızda Univariate Anomali Tespit Motoru
 
 Bu kütüphane, normal dağılıma uymayan büyük veri kümelerinde anomali tespiti için dünyanın en hızlısı olma hedefiyle geliştirilmiş, son teknoloji bir motordur. Çekirdeği, bellek güvenliği ve ham performansı birleştiren **Rust** dilinde yazılmıştır.
 
